@@ -1,8 +1,8 @@
 {
-  "name": "tictactoe",
+  "name": "wordcounter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://src-yahiko.github.io/react-tictactoe",
+  "homepage": "https://src-yahiko.github.io/react-wordcounter",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",

@@ -56,7 +56,7 @@ function Navbar() {
       <div className="max-w-7xl w-full h-full items-center flex mx-auto px-2 justify-between">
         <div className="flex items-center">
           <h1 className="md:border-r px-1 mr-1 md:mr-5 md:px-5 whitespace-nowrap">
-            TicTacToe
+            WordCounter
           </h1>
         </div>
         <div className="flex items-center">
