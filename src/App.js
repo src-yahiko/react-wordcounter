@@ -52,7 +52,7 @@ function App() {
             <input disabled={inputWord === ""} className="p-2 px-10 cursor-pointer shadow-inner border rounded-lg border-l-0 rounded-l-none" type="submit" value="Submit" onClick={(e) => { e.preventDefault(); handleSubmit(inputWord); setInputWord("") }} placeholder="word.." />
           </form>
           <p className="text-center d-block text-xs opacity-50">Hint: You can submit multiple words by seperating them with a space</p>
-          <p className="text-center d-block my-5">{wordList.length} words, {words.length} submission!</p>
+          <p className="text-center d-block my-5">{wordList.length} words, {words.length} submissions</p>
           <p className="d-block">Last word: {lastWord}</p>
           <div className="flex flex-col space-y-3">
             {
