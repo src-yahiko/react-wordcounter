@@ -19,8 +19,10 @@ function App() {
 
   const handleSubmit = (_word) => {
     const word = _word.trim().replace(/\W/g, " ").replace(/\s+/g, ' ').trim()
-    console.log(word.split(" "))
-    setLastWord(word.split(" ")[-1])
+    if (word === "")
+      return
+
+    setLastWord(word.split(" ")[word.split(" ").length - 1])
     const wordsCopy = [...words, ...word.split(" ")]
     const wordListCopy = wordsCopy.sort().reduce((acc, val) => {
       const valA = { word: val, count: 1 }
